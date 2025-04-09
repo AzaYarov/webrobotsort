@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <title>Галерея</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">RoboSort</div>
+    <nav>
+      <a href="index.html">Басты бет</a>
+      <a href="how-it-works.html">Қалай жұмыс істейді?</a>
+      <a href="applications.html">Қолдану салалары</a>
+      <a href="contact.html">Кері</a>
+      <a href="gallery.html">Галерея</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>RoboSort жүйесінің көріністері</h1>
+    <div class="gallery">
+      <img src="images/process1.png" alt="Қалдықтарды тану камерасы">
+      <img src="images/process2.png" alt="Жасанды интеллект жүйесі">
+      <img src="images/process3.png" alt="Сұрыптау құрылғысы">
+      <img src="images/process4.png" alt="Бұлтты деректер жүйесі">
+      <img src="images/process5.png" alt="Бұлтты деректер жүйесі">
+      <img src="images/process6.png" alt="Бұлтты деректер жүйесі">
+
+    </div>
+  </main>
+</body>
+</html>
